@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Tarefa</title>
+    <link rel="stylesheet" href="agendetaf.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agendar Nova Tarefa</h1>
+        <form>
+            <label for="task-name">Nome da Tarefa:</label>
+            <input type="text" id="task-name" name="task-name" placeholder="Digite o nome da tarefa" required>
+
+            <label for="task-date">Data:</label>
+            <input type="date" id="task-date" name="task-date" required>
+
+            <label for="task-time">Hora:</label>
+            <input type="time" id="task-time" name="task-time" required>
+
+            <label for="task-priority">Prioridade:</label>
+            <select id="task-priority" name="task-priority">
+                <option value="alta">Alta</option>
+                <option value="media">Média</option>
+                <option value="baixa">Baixa</option>
+            </select>
+
+            <label for="task-details">Detalhes:</label>
+            <textarea id="task-details" name="task-details" rows="4" placeholder="Descreva os detalhes da tarefa"></textarea>
+
+            <button type="submit" class="btn-submit">Agendar</button>
+            <button type="reset" class="btn-reset">Limpar</button>
+        </form>
+    </div>
+</body>
+</html>

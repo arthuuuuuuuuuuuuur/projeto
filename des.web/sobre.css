@@ -1,0 +1,36 @@
+/* Definições básicas de estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Altere a fonte para Arial */
+    background-color: #6b63fff1; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho principal */
+h1 {
+    font-family: 'Georgia', serif; /* Fonte serifada para o título */
+    color: #2c3e50; /* Cor do texto do título */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando os subtítulos */
+h2, h3 {
+    font-family: 'Verdana', sans-serif; /* Fonte sem serifa para subtítulos */
+    color: #34495e; /* Cor do texto dos subtítulos */
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Estilo específico para h2 se você desejar um estilo diferente */
+h2 {
+    font-weight: normal; /* Peso da fonte normal para h2 */
+}
+
+/* Adicione um pouco de espaçamento entre os elementos */
+body > * {
+    margin-bottom: 20px;
+}
+
